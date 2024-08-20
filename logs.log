@@ -8294,3 +8294,266 @@ KeyError: "None of [Index(['reference_date'], dtype='object')] are in the [colum
                                 subsample_for_bin=200000, subsample_freq=0))],
          verbose=False)
 2024-08-20 12:57:01,011:INFO:save_model() successfully completed......................................
+2024-08-20 13:05:45,979:INFO:Initializing create_model()
+2024-08-20 13:05:45,980:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=lr, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-08-20 13:05:45,980:INFO:Checking exceptions
+2024-08-20 13:05:45,994:INFO:Importing libraries
+2024-08-20 13:05:45,994:INFO:Copying training dataset
+2024-08-20 13:05:46,195:INFO:Defining folds
+2024-08-20 13:05:46,195:INFO:Declaring metric variables
+2024-08-20 13:05:46,199:INFO:Importing untrained model
+2024-08-20 13:05:46,202:INFO:Logistic Regression Imported successfully
+2024-08-20 13:05:46,210:INFO:Starting cross validation
+2024-08-20 13:05:46,213:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-08-20 13:12:29,848:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:30,874:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:31,662:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:32,021:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:32,116:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:32,754:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:33,182:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:33,351:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:33,803:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:34,633:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:12:35,153:INFO:Calculating mean and std
+2024-08-20 13:12:35,175:INFO:Creating metrics dataframe
+2024-08-20 13:12:35,222:INFO:Finalizing model
+2024-08-20 13:13:54,629:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-08-20 13:13:54,647:INFO:Uploading results into container
+2024-08-20 13:13:54,648:INFO:Uploading model into container now
+2024-08-20 13:13:54,686:INFO:_master_model_container: 6
+2024-08-20 13:13:54,686:INFO:_display_container: 5
+2024-08-20 13:13:54,691:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2024-08-20 13:13:54,691:INFO:create_model() successfully completed......................................
+2024-08-20 13:13:55,418:INFO:Initializing plot_model()
+2024-08-20 13:13:55,418:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0), plot=auc, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-08-20 13:13:55,418:INFO:Checking exceptions
+2024-08-20 13:13:55,609:INFO:Preloading libraries
+2024-08-20 13:13:55,624:INFO:Copying training dataset
+2024-08-20 13:13:55,624:INFO:Plot type: auc
+2024-08-20 13:13:56,910:INFO:Fitting Model
+2024-08-20 13:13:56,942:INFO:Scoring test/hold-out set
+2024-08-20 13:13:57,569:INFO:Visual Rendered Successfully
+2024-08-20 13:13:57,737:INFO:plot_model() successfully completed......................................
+2024-08-20 13:13:57,738:INFO:Initializing plot_model()
+2024-08-20 13:13:57,738:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-08-20 13:13:57,738:INFO:Checking exceptions
+2024-08-20 13:13:57,800:INFO:Preloading libraries
+2024-08-20 13:13:57,805:INFO:Copying training dataset
+2024-08-20 13:13:57,805:INFO:Plot type: confusion_matrix
+2024-08-20 13:13:58,823:INFO:Fitting Model
+2024-08-20 13:13:58,839:INFO:Scoring test/hold-out set
+2024-08-20 13:13:59,288:INFO:Visual Rendered Successfully
+2024-08-20 13:13:59,458:INFO:plot_model() successfully completed......................................
+2024-08-20 13:13:59,464:INFO:Initializing predict_model()
+2024-08-20 13:13:59,465:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C84D0C3C40>)
+2024-08-20 13:13:59,465:INFO:Checking exceptions
+2024-08-20 13:13:59,465:INFO:Preloading libraries
+2024-08-20 13:14:00,611:INFO:Initializing plot_model()
+2024-08-20 13:14:00,611:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=auc, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-08-20 13:14:00,611:INFO:Checking exceptions
+2024-08-20 13:14:00,678:INFO:Preloading libraries
+2024-08-20 13:14:00,678:INFO:Copying training dataset
+2024-08-20 13:14:00,678:INFO:Plot type: auc
+2024-08-20 13:14:01,824:INFO:Fitting Model
+2024-08-20 13:14:01,843:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2024-08-20 13:14:01,859:INFO:Scoring test/hold-out set
+2024-08-20 13:14:02,197:INFO:Visual Rendered Successfully
+2024-08-20 13:14:02,364:INFO:plot_model() successfully completed......................................
+2024-08-20 13:14:02,365:INFO:Initializing plot_model()
+2024-08-20 13:14:02,365:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2024-08-20 13:14:02,365:INFO:Checking exceptions
+2024-08-20 13:14:02,421:INFO:Preloading libraries
+2024-08-20 13:14:02,421:INFO:Copying training dataset
+2024-08-20 13:14:02,421:INFO:Plot type: confusion_matrix
+2024-08-20 13:14:03,429:INFO:Fitting Model
+2024-08-20 13:14:03,429:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2024-08-20 13:14:03,444:INFO:Scoring test/hold-out set
+2024-08-20 13:14:03,587:INFO:Visual Rendered Successfully
+2024-08-20 13:14:03,755:INFO:plot_model() successfully completed......................................
+2024-08-20 13:14:03,762:INFO:Initializing predict_model()
+2024-08-20 13:14:03,762:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C85177F6D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C8600D59E0>)
+2024-08-20 13:14:03,762:INFO:Checking exceptions
+2024-08-20 13:14:03,763:INFO:Preloading libraries
+2024-08-20 13:14:04,669:INFO:Initializing save_model()
+2024-08-20 13:14:04,674:INFO:save_model(model=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), model_name=lr_pipeline, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\Hanga\AppData\Local\Temp\joblib),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(exclude=None, include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures(features=['day',
+                                                                                  'month',
+                                                                                  'year']))),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['index', 'children_count', 'age',
+                                             'employment_time...
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              n_jobs=None,
+                                                                              random_state=123,
+                                                                              sampling_strategy='auto'))))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2024-08-20 13:14:04,674:INFO:Adding model into prep_pipe
+2024-08-20 13:14:04,689:INFO:lr_pipeline.pkl saved in current working directory
+2024-08-20 13:14:04,718:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(exclude=None, include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures(features=['day',
+                                                                                  'month',
+                                                                                  'year']))),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transforme...
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              n_jobs=None,
+                                                                              random_state=123,
+                                                                              sampling_strategy='auto')))),
+                ('trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=123,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2024-08-20 13:14:04,718:INFO:save_model() successfully completed......................................
