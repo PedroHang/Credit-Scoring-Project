@@ -1,0 +1,671 @@
+2024-08-21 12:22:04,094:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:04,094:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:04,095:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:04,095:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:52,961:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:52,961:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:52,962:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:22:52,962:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-21 12:23:05,719:INFO:Initializing load_model()
+2024-08-21 12:23:05,719:INFO:load_model(model_name=./models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:23:46,535:INFO:Initializing load_model()
+2024-08-21 12:23:46,536:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:23:47,511:INFO:Initializing predict_model()
+2024-08-21 12:23:47,511:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60D7C60D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6036D51C0>)
+2024-08-21 12:23:47,511:INFO:Checking exceptions
+2024-08-21 12:23:47,511:INFO:Preloading libraries
+2024-08-21 12:23:47,511:INFO:Set up data.
+2024-08-21 12:23:47,872:INFO:Set up index.
+2024-08-21 12:29:45,420:INFO:Initializing load_model()
+2024-08-21 12:29:45,420:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:29:45,486:INFO:Initializing predict_model()
+2024-08-21 12:29:45,486:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B601270510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60C08AD40>)
+2024-08-21 12:29:45,486:INFO:Checking exceptions
+2024-08-21 12:29:45,486:INFO:Preloading libraries
+2024-08-21 12:29:45,486:INFO:Set up data.
+2024-08-21 12:29:45,951:INFO:Set up index.
+2024-08-21 12:30:29,734:INFO:Initializing load_model()
+2024-08-21 12:30:29,734:INFO:load_model(model_name=./models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:30:49,511:INFO:Initializing load_model()
+2024-08-21 12:30:49,511:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:30:49,601:INFO:Initializing predict_model()
+2024-08-21 12:30:49,601:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60C162510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B603682660>)
+2024-08-21 12:30:49,601:INFO:Checking exceptions
+2024-08-21 12:30:49,601:INFO:Preloading libraries
+2024-08-21 12:30:49,601:INFO:Set up data.
+2024-08-21 12:30:49,972:INFO:Set up index.
+2024-08-21 12:31:51,654:INFO:Initializing load_model()
+2024-08-21 12:31:51,654:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:31:51,727:INFO:Initializing predict_model()
+2024-08-21 12:31:51,727:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60D7E8310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60C08A0C0>)
+2024-08-21 12:31:51,727:INFO:Checking exceptions
+2024-08-21 12:31:51,727:INFO:Preloading libraries
+2024-08-21 12:31:51,727:INFO:Set up data.
+2024-08-21 12:31:52,097:INFO:Set up index.
+2024-08-21 12:31:55,238:INFO:Initializing load_model()
+2024-08-21 12:31:55,238:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:31:55,441:INFO:Initializing predict_model()
+2024-08-21 12:31:55,441:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6036CDAD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60D4AFA60>)
+2024-08-21 12:31:55,441:INFO:Checking exceptions
+2024-08-21 12:31:55,441:INFO:Preloading libraries
+2024-08-21 12:31:55,441:INFO:Set up data.
+2024-08-21 12:31:55,895:INFO:Set up index.
+2024-08-21 12:33:31,332:INFO:Initializing load_model()
+2024-08-21 12:33:31,333:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:33:31,393:INFO:Initializing predict_model()
+2024-08-21 12:33:31,393:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6035EC710>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6604CB6A0>)
+2024-08-21 12:33:31,393:INFO:Checking exceptions
+2024-08-21 12:33:31,393:INFO:Preloading libraries
+2024-08-21 12:33:31,393:INFO:Set up data.
+2024-08-21 12:33:31,729:INFO:Set up index.
+2024-08-21 12:33:41,158:INFO:Initializing load_model()
+2024-08-21 12:33:41,159:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:33:41,227:INFO:Initializing predict_model()
+2024-08-21 12:33:41,227:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60369C910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6023D2200>)
+2024-08-21 12:33:41,227:INFO:Checking exceptions
+2024-08-21 12:33:41,227:INFO:Preloading libraries
+2024-08-21 12:33:41,227:INFO:Set up data.
+2024-08-21 12:33:41,599:INFO:Set up index.
+2024-08-21 12:35:23,632:INFO:Initializing load_model()
+2024-08-21 12:35:23,632:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:35:23,702:INFO:Initializing predict_model()
+2024-08-21 12:35:23,702:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6016F5510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6036827A0>)
+2024-08-21 12:35:23,702:INFO:Checking exceptions
+2024-08-21 12:35:23,702:INFO:Preloading libraries
+2024-08-21 12:35:23,702:INFO:Set up data.
+2024-08-21 12:35:24,048:INFO:Set up index.
+2024-08-21 12:38:00,042:INFO:Initializing load_model()
+2024-08-21 12:38:00,043:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:38:00,114:INFO:Initializing predict_model()
+2024-08-21 12:38:00,114:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6076D67D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B608387F60>)
+2024-08-21 12:38:00,115:INFO:Checking exceptions
+2024-08-21 12:38:00,115:INFO:Preloading libraries
+2024-08-21 12:38:00,115:INFO:Set up data.
+2024-08-21 12:38:00,502:INFO:Set up index.
+2024-08-21 12:41:07,400:INFO:Initializing load_model()
+2024-08-21 12:41:07,400:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:41:07,458:INFO:Initializing predict_model()
+2024-08-21 12:41:07,458:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6022E0750>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6036D7060>)
+2024-08-21 12:41:07,458:INFO:Checking exceptions
+2024-08-21 12:41:07,458:INFO:Preloading libraries
+2024-08-21 12:41:07,458:INFO:Set up data.
+2024-08-21 12:41:07,783:INFO:Set up index.
+2024-08-21 12:41:53,216:INFO:Initializing load_model()
+2024-08-21 12:41:53,216:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:41:53,276:INFO:Initializing predict_model()
+2024-08-21 12:41:53,276:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6082BE590>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60D7BD260>)
+2024-08-21 12:41:53,276:INFO:Checking exceptions
+2024-08-21 12:41:53,276:INFO:Preloading libraries
+2024-08-21 12:41:53,278:INFO:Set up data.
+2024-08-21 12:41:53,609:INFO:Set up index.
+2024-08-21 12:45:31,445:INFO:Initializing load_model()
+2024-08-21 12:45:31,445:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:45:31,513:INFO:Initializing predict_model()
+2024-08-21 12:45:31,513:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60F3AD850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6083876A0>)
+2024-08-21 12:45:31,513:INFO:Checking exceptions
+2024-08-21 12:45:31,513:INFO:Preloading libraries
+2024-08-21 12:45:31,513:INFO:Set up data.
+2024-08-21 12:45:31,855:INFO:Set up index.
+2024-08-21 12:50:17,407:INFO:Initializing load_model()
+2024-08-21 12:50:17,407:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:50:17,480:INFO:Initializing predict_model()
+2024-08-21 12:50:17,480:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B6076EE050>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60CB11300>)
+2024-08-21 12:50:17,480:INFO:Checking exceptions
+2024-08-21 12:50:17,480:INFO:Preloading libraries
+2024-08-21 12:50:17,480:INFO:Set up data.
+2024-08-21 12:50:17,864:INFO:Set up index.
+2024-08-21 12:54:37,848:INFO:Initializing load_model()
+2024-08-21 12:54:37,848:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:54:37,928:INFO:Initializing predict_model()
+2024-08-21 12:54:37,928:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B65D744BD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6036D7060>)
+2024-08-21 12:54:37,928:INFO:Checking exceptions
+2024-08-21 12:54:37,928:INFO:Preloading libraries
+2024-08-21 12:54:37,928:INFO:Set up data.
+2024-08-21 12:54:38,312:INFO:Set up index.
+2024-08-21 12:56:11,899:INFO:Initializing load_model()
+2024-08-21 12:56:11,900:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:56:11,966:INFO:Initializing predict_model()
+2024-08-21 12:56:11,966:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60830D3D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B64B590E00>)
+2024-08-21 12:56:11,966:INFO:Checking exceptions
+2024-08-21 12:56:11,966:INFO:Preloading libraries
+2024-08-21 12:56:11,966:INFO:Set up data.
+2024-08-21 12:56:12,309:INFO:Set up index.
+2024-08-21 12:56:22,359:INFO:Initializing load_model()
+2024-08-21 12:56:22,359:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:56:22,429:INFO:Initializing predict_model()
+2024-08-21 12:56:22,429:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60D7E59D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B603625BC0>)
+2024-08-21 12:56:22,429:INFO:Checking exceptions
+2024-08-21 12:56:22,429:INFO:Preloading libraries
+2024-08-21 12:56:22,429:INFO:Set up data.
+2024-08-21 12:56:22,754:INFO:Set up index.
+2024-08-21 12:56:30,490:INFO:Initializing load_model()
+2024-08-21 12:56:30,490:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:56:30,553:INFO:Initializing predict_model()
+2024-08-21 12:56:30,553:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B608298A50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B6036D5940>)
+2024-08-21 12:56:30,553:INFO:Checking exceptions
+2024-08-21 12:56:30,553:INFO:Preloading libraries
+2024-08-21 12:56:30,554:INFO:Set up data.
+2024-08-21 12:56:30,891:INFO:Set up index.
+2024-08-21 12:57:16,112:INFO:Initializing load_model()
+2024-08-21 12:57:16,112:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:57:16,182:INFO:Initializing predict_model()
+2024-08-21 12:57:16,182:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60D7E3C90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60D52BC40>)
+2024-08-21 12:57:16,182:INFO:Checking exceptions
+2024-08-21 12:57:16,182:INFO:Preloading libraries
+2024-08-21 12:57:16,182:INFO:Set up data.
+2024-08-21 12:57:16,521:INFO:Set up index.
+2024-08-21 12:58:09,073:INFO:Initializing load_model()
+2024-08-21 12:58:09,073:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:58:09,143:INFO:Initializing predict_model()
+2024-08-21 12:58:09,146:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60830E1D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60115F880>)
+2024-08-21 12:58:09,146:INFO:Checking exceptions
+2024-08-21 12:58:09,146:INFO:Preloading libraries
+2024-08-21 12:58:09,146:INFO:Set up data.
+2024-08-21 12:58:09,519:INFO:Set up index.
+2024-08-21 12:59:08,698:INFO:Initializing load_model()
+2024-08-21 12:59:08,698:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:59:08,761:INFO:Initializing predict_model()
+2024-08-21 12:59:08,763:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B64B5AD4D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B64B590040>)
+2024-08-21 12:59:08,763:INFO:Checking exceptions
+2024-08-21 12:59:08,763:INFO:Preloading libraries
+2024-08-21 12:59:08,763:INFO:Set up data.
+2024-08-21 12:59:09,096:INFO:Set up index.
+2024-08-21 12:59:30,888:INFO:Initializing load_model()
+2024-08-21 12:59:30,888:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-21 12:59:30,953:INFO:Initializing predict_model()
+2024-08-21 12:59:30,954:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B60368DDD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B60115F880>)
+2024-08-21 12:59:30,954:INFO:Checking exceptions
+2024-08-21 12:59:30,954:INFO:Preloading libraries
+2024-08-21 12:59:30,954:INFO:Set up data.
+2024-08-21 12:59:31,274:INFO:Set up index.
