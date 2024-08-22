@@ -203,8 +203,8 @@ def main():
         st.markdown(
             """
             <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-                <a href="https://youtube.com/your-video-link" target="_blank" style="background-color: #cc0000; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">YouTube Video</a>
-                <a href="https://kaggle.com/your-project-link" target="_blank" style="background-color: #0000cc; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">Kaggle Project</a>
+                <a href="https://www.youtube.com/watch?v=6rbWRaVanaM" target="_blank" style="background-color: #cc0000; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">YouTube Video</a>
+                <a href="https://nbviewer.org/github/PedroHang/Credit-Scoring-Project/blob/main/credit_scoring_original.ipynb" target="_blank" style="background-color: #0000cc; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">NBviewer</a>
                 <a href="https://github.com/PedroHang/Credit-Scoring-Project" target="_blank" style="background-color: #660066; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">GitHub Repository</a>
                 <a href="https://app.powerbi.com/view?r=eyJrIjoiM2ZjNzZkNTAtN2M5NS00MWJkLThjMDItMWFiOTg5NDJkYTgzIiwidCI6IjcxMWE5Mzc5LTI0MTMtNGYxMy04NTlmLTlhYzhkYzc2MjRhMyJ9" target="_blank" style="background-color: #cc6600; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">PowerBI Dashboard</a>
             </div>
@@ -216,7 +216,7 @@ def main():
             """
             <p style="text-align: center; margin-top: 40px;">Check out my LinkedIn page:</p>
             <div style="display: flex; justify-content: center;">
-                <a href="https://linkedin.com/in/your-profile-link" target="_blank" style="background-color: #0077cc; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; text-align: center;">LinkedIn Page</a>
+                <a href="https://www.linkedin.com/in/pedrohang/" target="_blank" style="background-color: #0077cc; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; text-align: center;">LinkedIn Page</a>
             </div>
             <hr style="border: 1px solid #ff7d00;">
             """, unsafe_allow_html=True
