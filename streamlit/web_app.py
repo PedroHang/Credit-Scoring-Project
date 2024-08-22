@@ -62,7 +62,7 @@ def evaluate_model(df):
 
 def main():
     # Sidebar navigation
-    page = st.sidebar.selectbox("Navigate", ["Home", "Important Resources"])
+    page = st.sidebar.selectbox("Navigate", ["Home", "Important Resources", "Dashboard"])
 
     if page == "Home":
         # Home page content
@@ -169,11 +169,11 @@ def main():
                     <p style="font-size: 1.2em; text-align: justify; line-height: 1.6;">
                         I am still in the process of learning how to perform effective credit risk modeling and welcome any tips or suggestions on how I can improve my approach.
                     </p>
+                    <
                     <a id="conclusion"></a>
                 </div>
                 """, unsafe_allow_html=True
             )
-            
 
     elif page == "Important Resources":
         # Important Resources page content
@@ -200,7 +200,7 @@ def main():
                 <a href="https://youtube.com/your-video-link" target="_blank" style="background-color: #cc0000; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">YouTube Video</a>
                 <a href="https://kaggle.com/your-project-link" target="_blank" style="background-color: #0000cc; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">Kaggle Project</a>
                 <a href="https://github.com/PedroHang/Credit-Scoring-Project" target="_blank" style="background-color: #660066; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">GitHub Repository</a>
-                <a href="https://powerbi.com/your-dashboard-link" target="_blank" style="background-color: #cc6600; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">PowerBI Dashboard</a>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiM2ZjNzZkNTAtN2M5NS00MWJkLThjMDItMWFiOTg5NDJkYTgzIiwidCI6IjcxMWE5Mzc5LTI0MTMtNGYxMy04NTlmLTlhYzhkYzc2MjRhMyJ9" target="_blank" style="background-color: #cc6600; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; width: 20%; text-align: center;">PowerBI Dashboard</a>
             </div>
             <hr style="border: 1px solid #ff7d00;">
             """, unsafe_allow_html=True
@@ -216,6 +216,40 @@ def main():
             """, unsafe_allow_html=True
         )
 
+    elif page == "Dashboard":
+        # Dashboard page content
+        st.markdown(
+            """
+            <h1 style='text-align: center;'>
+                <img src="https://cdn-icons-png.flaticon.com/512/1604/1604695.png" alt="icon" width="50"/>
+                Dashboard
+            </h1>
+            <hr style="border: 1px solid #ff7d00;">
+            <p style="text-align: center; font-size: 22px;">
+                Below is the embedded Power BI dashboard for detailed insights.
+            </p>
+            <hr style="border: 1px solid #ff7d00;">
+            """, unsafe_allow_html=True
+        )
+
+        # Embed the Power BI dashboard using an iframe with a wider width
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                <iframe width="100%" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiM2ZjNzZkNTAtN2M5NS00MWJkLThjMDItMWFiOTg5NDJkYTgzIiwidCI6IjcxMWE5Mzc5LTI0MTMtNGYxMy04NTlmLTlhYzhkYzc2MjRhMyJ9" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <hr style="border: 1px solid #ff7d00;">
+            """, unsafe_allow_html=True
+        )
+
+        # Provide a clickable link for the dashboard
+        st.markdown(
+            """
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiM2ZjNzZkNTAtN2M5NS00MWJkLThjMDItMWFiOTg5NDJkYTgzIiwidCI6IjcxMWE5Mzc5LTI0MTMtNGYxMy04NTlmLTlhYzhkYzc2MjRhMyJ9" target="_blank" style="background-color: #ff7d00; color: white; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">Power BI Dashboard</a>
+            </div>
+            """, unsafe_allow_html=True
+        )
 
 # Run the app
 if __name__ == "__main__":

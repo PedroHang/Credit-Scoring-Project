@@ -669,3 +669,11 @@
 2024-08-21 12:59:30,954:INFO:Preloading libraries
 2024-08-21 12:59:30,954:INFO:Set up data.
 2024-08-21 12:59:31,274:INFO:Set up index.
+2024-08-22 10:49:04,148:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 10:49:04,149:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 10:49:04,149:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 10:49:04,149:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
