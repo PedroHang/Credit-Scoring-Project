@@ -11,11 +11,13 @@ st.set_page_config(
     page_icon="https://cdn-icons-png.flaticon.com/512/1604/1604695.png"
 )
 
-# Define helper functions
+# Define helper functions with caching
+@st.cache_data
 def load_data(filepath):
     data = pd.read_csv(filepath)
     return data
 
+@st.cache_data
 def preprocess_data(df):
     # Ensure 'reference_date' is a datetime64 dtype
     df['reference_date'] = pd.to_datetime(df['reference_date'])
@@ -38,9 +40,13 @@ def plot_auc(y_true, y_proba):
     plt.legend(loc="lower right")
     st.pyplot(plt)
 
-def evaluate_model(df):
+@st.cache_resource
+def load_trained_model():
     # Load the model using PyCaret
-    model = load_model('../models/lr_pipeline')
+    return load_model('../models/lr_pipeline')
+
+def evaluate_model(df):
+    model = load_trained_model()
 
     # Use PyCaret's predict_model function to generate predictions and metrics
     predictions = predict_model(model, data=df)
