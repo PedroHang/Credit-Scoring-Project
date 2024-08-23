@@ -677,3 +677,80 @@
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-08-22 10:49:04,149:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 13:46:24,307:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 13:46:24,307:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 13:46:24,307:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 13:46:24,307:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-22 14:16:45,440:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\streamlit\util.py:227: RuntimeWarning: coroutine 'expire_cache' was never awaited
+  pass
+
+2024-08-22 14:16:45,656:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\streamlit\util.py:227: RuntimeWarning: coroutine 'expire_cache' was never awaited
+  pass
+
+2024-08-22 14:16:45,691:INFO:Initializing load_model()
+2024-08-22 14:16:45,692:INFO:load_model(model_name=../models/lr_pipeline, platform=None, authentication=None, verbose=True)
+2024-08-22 14:16:46,556:WARNING:C:\Users\Hanga\anaconda3\Lib\site-packages\streamlit\util.py:227: RuntimeWarning: coroutine 'expire_cache' was never awaited
+  pass
+
+2024-08-22 14:16:46,614:INFO:Initializing predict_model()
+2024-08-22 14:16:46,614:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A4E88A5450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001A4E9768900>)
+2024-08-22 14:16:46,614:INFO:Checking exceptions
+2024-08-22 14:16:46,614:INFO:Preloading libraries
+2024-08-22 14:16:46,614:INFO:Set up data.
+2024-08-22 14:16:46,853:INFO:Set up index.
+2024-08-22 16:11:04,354:INFO:Initializing predict_model()
+2024-08-22 16:11:04,354:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A4F41F5C50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['reference_date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['index', 'children_count', 'age',
+                                             'employment_time',
+                                             'residents_count', 'income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWra...
+                 TransformerWrapper(include=['income_type', 'education',
+                                             'marital_status',
+                                             'residence_type'],
+                                    transformer=OneHotEncoder(cols=['income_type',
+                                                                    'education',
+                                                                    'marital_status',
+                                                                    'residence_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001A4E97E16C0>)
+2024-08-22 16:11:04,355:INFO:Checking exceptions
+2024-08-22 16:11:04,355:INFO:Preloading libraries
+2024-08-22 16:11:04,359:INFO:Set up data.
+2024-08-22 16:11:04,603:INFO:Set up index.
